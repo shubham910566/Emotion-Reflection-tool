@@ -1,0 +1,52 @@
+.app {
+  padding: 2rem;
+  max-width: 500px;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+textarea {
+  padding: 1rem;
+  font-size: 1rem;
+  min-height: 100px;
+  margin-bottom: 1rem;
+  border: 0.5px black solid;
+  resize: vertical;
+}
+
+button {
+  padding: 0.75rem;
+  font-size: 1rem;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  background: #f0f0f0;
+  border-radius: 8px;
+}
+
+.error {
+  color: red;
+  margin-top: 1rem;
+}
+
+@media(max-width:480px){
+  .app{
+    width: 85% !important;
+  }
+  textarea{
+    border: 1px black solid;
+  }
+ 
+}
